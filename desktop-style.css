@@ -1,0 +1,60 @@
+
+/* desktops */
+@media screen and (min-width: 480px) {
+	.content {
+		display: flex;  /* just to remove white space between two child inline blocks */
+	}
+
+	.col {
+		
+		display: inline-block;
+	}
+
+	#menubar img {
+		
+		float: left;
+	}
+
+	#hero {
+		margin-top: 70px !important;
+	}
+
+	#menubar #CTA-btns {
+		float: right;
+	} 
+	
+	#easier .col1 {
+		order: 2;
+	}
+	#easier .col2 {
+		order: 1;
+	}
+	#discover .col1{
+		height: 70%;
+	}
+	#discover{
+		height: 30%;
+	}
+	#understanding .col1{
+		order: 2;
+	}
+	#understanding .col2{
+		order: 1;
+	}
+	#footer .col1{
+		order:2;
+	}
+	#footer .col2{
+		order:3; 
+	}
+	#footer .col3{
+		order: 1;
+
+	}
+	.hidden {
+		display: flex;
+	}
+	.image12 {
+		display: flex;
+	}
+}
